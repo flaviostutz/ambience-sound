@@ -12,6 +12,7 @@ Basic sound manager is a RaspberryPi with Docker containers installed.
 * Install ALSA packages
   * apt-get update && apt-get install alsa-tools alsa-utils rpi-update
 * Configure ALSA to use your USB card as default device (ignore the trashy onboard sound card, hehe)
+  * echo "blacklist snd_bcm2835" > /etc/modprobe.d/alsa-blacklist.conf
   * echo "options snd-usb-audio index=0" > /etc/modprobe.d/alsa-base.conf
   * paste into /etc/asound.conf
 ```
