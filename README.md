@@ -19,7 +19,7 @@ Basic sound manager is a RaspberryPi with Docker containers installed.
 ### Hardware
 * Connect a good USB sound card
   * I use a Behringer UCA 202 USB card and do like its sound
-  * I've already tested various 2-3 dollars eBay USB Sound cards and most of them are "OK" but suffers with some digital noises
+  * I've already tested various 2-3 dollars eBay USB Sound cards and most of them are "OK" but suffers with some digital noises. Set Raspberry to the highest volume and adjust your amplifier to the minimum possible gain - the sound must be well heard in your house - so that those noises are minimized.
 * Install amplifier and ceiling speakers
   * JBL round ceiling speakers and car sound amplifiers deliver great results
     * Single Corzus HF 404 (4 channel x 50wrms@4ohm) with 8 x JBL Selenium Speaker 6FR2R
