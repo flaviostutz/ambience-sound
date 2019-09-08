@@ -9,6 +9,7 @@ Basic sound manager is a RaspberryPi with Docker containers installed.
   * Download the latest version from https://blog.hypriot.com/downloads/
   * Copy the image to the SD card using Etcher
   * Raspberry 2 is enough for Spotify Connect
+  * User **pirate** with password **hypriot**
 * Install ALSA packages
   * ```apt-get update && apt-get install alsa-tools alsa-utils rpi-update```
 * Configure ALSA to use your USB card as default device (ignore the trashy onboard sound card, hehe)
